@@ -8,13 +8,13 @@
   <title>Instagram</title>
 
   <!-- favicon -->
-  <link rel="icon" href="/instagram/assets/instagram-496c0b62.png">
+  <link rel="icon" href="/instagram-ui/assets/instagram-496c0b62.png">
 
   <!-- main.css -->
   
   <!-- <link rel="stylesheet" href="./dist/assets/index-a6e37ef6.css"> -->
 
-  <link rel="stylesheet" href="/instagram/assets/index-e0ac19c3.css">
+  <link rel="stylesheet" href="/instagram-ui/assets/index-6126809b.css">
 </head>
 <!-- style="background-image: url(./public/images/insta-bg.jpg);" -->
 
@@ -42,7 +42,7 @@
         <input type="text" placeholder="Search" class="w-full outline-none px-11 py-1 text-white rounded bg-gray-700">
       </div>
       <!-- theme icon -->
-      <div>
+      <div class="transform transition-all hover:scale-110">
         <a href="./white.html"> <svg xmlns="http://www.w3.org/2000/svg" class="text-white
         " width="25" height="25" viewBox="0 0 24 24">
             <path fill="currentColor"
@@ -50,7 +50,7 @@
           </svg></a>
       </div>
       <!-- heart icon -->
-      <div class="relative">
+      <div class="relative transform transition-all hover:scale-110">
         <div class="bg-red-600 w-2 h-2 rounded-full absolute top-1 right-4 left-4"></div>
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="text-white">
           <path fill="currentColor"
@@ -58,9 +58,9 @@
         </svg>
       </div>
       <!-- github icon -->
-      <div>
-        <a href="https://github.com/Hema-venkat3/instagram-ui-tailwind"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoElEQVR4nO2Wz0sqURTHRwMThRYJ4Y+MStu0cG2GJAYuAmWUct2mRdqPxWxd+V+kqImtBEGJqIXQX9DG1biqRTtBcSr7YXUeZ6DoNveOzvQeDx7vwMFx7j3fj/fce+6R4zgO/pJz/8FAy8Lc3Bzs7+/DxcUFiKII9/f3suMzvtvb2wO32/37Uu1yueDo6AheX19hlL29vUG1WoX5+fmfgXmeh7u7O9BqkiRBLBbTBz48PJRXoNcw9uDgQBuY5/kfQb/CVVbOES9mZ2cV6fX7/eDz+aBQKKiCcBznBQIBIu1Op3M0mCY+OTlJZGNtbQ1mZmZgYmJC/gyFQvL7jzlms5mIz+fz6mAsGdrp9Xq9mi6ZpaUlIh41MZNMMNYpzVZXVzWBg8GgQiOdTrPB5+fnioBarabrSm00GoTO2dkZG9xutxXglZUVXeDvqxZFkQ3GE6h2sLS41WoldCRJYoPx7v1uU1NTusA2m43QeXh4YIOvr68V4Gg0qgucSCQInZubGzYYD8B3u7q6kutSC9RisUCr1SJ0Tk9P2WBBEIBmzWaTdfsoHOv18vJSoSEIAhuM/fTl5YUKHwwGUCwWYWtrCxYXFwkR/J5MJuH4+BgeHx8VsajpcDjYYPRKpfIZsL29DfV6XfEDIpEIERMOh+Hp6QlYVi6XadlRNv5utysHdDodmJ6ehpOTE1m41+tBJpOhpjibzVKh/X6ftlqgtsXNzc3PtrizszPW3no8HgUUNeLxOCuGow6kUil4f3+H29tbWF9fH3myjUajArq7u6sWwzEHsYljer+a2vwPw61SWSmMBKNjGeVyORgOhyPBz8/PUCqVwG63j7M93Fh7iGLYNk0mE3XcYDCMXeucFvAfcO7fBi8sLMDGxgYsLy/L/9F+ASyWdkXJdoyNAAAAAElFTkSuQmCC"
-            class="text-white" alt="Github" width="50" height="50"></a>
+      <div class="transform transition-all hover:scale-110">
+        <a href="https://github.com/Hema-venkat3/instagram-ui-tailwind" target="_blank"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoElEQVR4nO2Wz0sqURTHRwMThRYJ4Y+MStu0cG2GJAYuAmWUct2mRdqPxWxd+V+kqImtBEGJqIXQX9DG1biqRTtBcSr7YXUeZ6DoNveOzvQeDx7vwMFx7j3fj/fce+6R4zgO/pJz/8FAy8Lc3Bzs7+/DxcUFiKII9/f3suMzvtvb2wO32/37Uu1yueDo6AheX19hlL29vUG1WoX5+fmfgXmeh7u7O9BqkiRBLBbTBz48PJRXoNcw9uDgQBuY5/kfQb/CVVbOES9mZ2cV6fX7/eDz+aBQKKiCcBznBQIBIu1Op3M0mCY+OTlJZGNtbQ1mZmZgYmJC/gyFQvL7jzlms5mIz+fz6mAsGdrp9Xq9mi6ZpaUlIh41MZNMMNYpzVZXVzWBg8GgQiOdTrPB5+fnioBarabrSm00GoTO2dkZG9xutxXglZUVXeDvqxZFkQ3GE6h2sLS41WoldCRJYoPx7v1uU1NTusA2m43QeXh4YIOvr68V4Gg0qgucSCQInZubGzYYD8B3u7q6kutSC9RisUCr1SJ0Tk9P2WBBEIBmzWaTdfsoHOv18vJSoSEIAhuM/fTl5YUKHwwGUCwWYWtrCxYXFwkR/J5MJuH4+BgeHx8VsajpcDjYYPRKpfIZsL29DfV6XfEDIpEIERMOh+Hp6QlYVi6XadlRNv5utysHdDodmJ6ehpOTE1m41+tBJpOhpjibzVKh/X6ftlqgtsXNzc3PtrizszPW3no8HgUUNeLxOCuGow6kUil4f3+H29tbWF9fH3myjUajArq7u6sWwzEHsYljer+a2vwPw61SWSmMBKNjGeVyORgOhyPBz8/PUCqVwG63j7M93Fh7iGLYNk0mE3XcYDCMXeucFvAfcO7fBi8sLMDGxgYsLy/L/9F+ASyWdkXJdoyNAAAAAElFTkSuQmCC" class="text-white" alt="Github" width="60" height="60"></a>
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@
 
   <!-- story section -->
   <section class="px-5 py-5 flex space-x-4 items-center justify-center bg-zinc-900">
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center transform transition-all hover:scale-105">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="text-white
       w-16 h-16">
         <path fill="none"
@@ -80,26 +80,26 @@
       <!-- <img src="./public/images/HEMADEVI-photo---.jpeg" alt="Hema" class="rounded-full w-16 h-16 object-cover p-0.5"> -->
       <span class="text-gray-300 pt-1 text-xs text-center">your story</span>
     </div>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center transform transition-all hover:scale-105">
       <img src="https://pbs.twimg.com/media/FssVfO3aEAA1QAx.jpg:large" alt="Nayanthara"
         class="rounded-full w-16 h-16 object-cover bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500  p-0.5">
       <span class="text-gray-300 pt-1 text-xs">nayanthara</span>
     </div>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center transform transition-all hover:scale-105">
       <img
         src="https://i0.wp.com/sareeing.com/wp-content/uploads/2023/01/yellow-saree-bigg-boss-dd-neelakandan-1-819x1024.webp?resize=819%2C1024&ssl=1"
         alt="Divya"
         class="rounded-full w-16 h-16 object-cover bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500  p-0.5">
       <span class="text-gray-300 pt-1 text-xs text-center">divya</span>
     </div>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center transform transition-all hover:scale-105">
       <img
         src="https://th-i.thgim.com/public/entertainment/movies/h2588e/article66590504.ece/alternates/FREE_1200/_DSC8673.jpg"
         alt="Ramya"
         class="rounded-full w-16 h-16 object-cover bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500  p-0.5">
       <span class="text-gray-300 pt-1 text-xs text-center">ramya </span>
     </div>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center transform transition-all hover:scale-105">
       <img src="https://www.masala.com/cloud/2022/11/01/aishwarya2.jpg" alt="Aishwarya"
         class="rounded-full w-16 h-16 object-cover bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500  p-0.5">
       <span class="text-gray-300 pt-1 text-xs text-center">aishwarya</span>
@@ -119,7 +119,7 @@
     <div class="flex items-center justify-between px-5">
       <div class="flex items-center space-x-4">
         <!-- profile icon for post -->
-        <img src="/instagram/assets/p-1-189333ca.jpg" alt="businessmindset101"
+        <img src="/instagram-ui/assets/p-1-189333ca.jpg" alt="businessmindset101"
           class="w-11 h-11 object-cover justify-center items-center p-0.5 rounded-full">
         <p>photography <span class="text-gray-400 text-sm">. 16 h</span></p>
       </div>
@@ -135,27 +135,27 @@
       </div>
     </div>
     <!-- post -->
-    <img src="/instagram/assets/p-2debefb5.jpg" alt="business" class="p-5 rounded" width="450" height="450">
+    <img src="/instagram-ui/assets/p-2debefb5.jpg" alt="business" class="p-5 rounded" width="450" height="450">
     </div>
     <!--  Likes commands send save-->
     <div class="items-center flex px-5 justify-between">
       <div class=" flex space-x-4 items-center">
         <!-- heart -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
           </svg>
         </div>
         <!-- message -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
           </svg>
         </div>
         <!-- send -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1L21 3" />
@@ -163,7 +163,7 @@
         </div>
       </div>
       <!-- save image -->
-      <div>
+      <div class="transform transition-all hover:scale-110">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
           <path fill="currentColor"
             d="M7 5v23l1.594-1.188L16 21.25l7.406 5.563L25 28V5H7zm2 2h14v17l-6.406-4.813L16 18.75l-.594.438L9 24V7z" />
@@ -212,21 +212,21 @@
       <div class="items-center flex justify-between px-5">
         <div class="flex space-x-4 items-center">
           <!-- heart -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
               <path fill="currentColor"
                 d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
             </svg>
           </div>
           <!-- message -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
             </svg>
           </div>
           <!-- send -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1L21 3" />
@@ -234,7 +234,7 @@
           </div>
         </div>
         <!-- save image -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
             <path fill="currentColor"
               d="M7 5v23l1.594-1.188L16 21.25l7.406 5.563L25 28V5H7zm2 2h14v17l-6.406-4.813L16 18.75l-.594.438L9 24V7z" />
@@ -290,21 +290,21 @@
       <div class="items-center flex justify-between px-5">
         <div class="flex items-center space-x-4">
           <!-- heart -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
               <path fill="currentColor"
                 d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
             </svg>
           </div>
           <!-- message -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
             </svg>
           </div>
           <!-- send -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1L21 3" />
@@ -312,7 +312,7 @@
           </div>
         </div>
         <!-- save image -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
             <path fill="currentColor"
               d="M7 5v23l1.594-1.188L16 21.25l7.406 5.563L25 28V5H7zm2 2h14v17l-6.406-4.813L16 18.75l-.594.438L9 24V7z" />
@@ -363,27 +363,27 @@
       </div>
       <div>
         <!-- post -->
-        <img src="/instagram/assets/a-0c053ddb.jpg" width="450" height="450" alt="Andrea" class="p-5">
+        <img src="/instagram-ui/assets/a-0c053ddb.jpg" width="450" height="450" alt="Andrea" class="p-5">
       </div>
       <!--  Likes commands send save-->
       <div class="items-center flex justify-between px-5">
         <div class="flex items-center space-x-4">
           <!-- heart -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
               <path fill="currentColor"
                 d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
             </svg>
           </div>
           <!-- message -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
             </svg>
           </div>
           <!-- send -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1L21 3" />
@@ -391,7 +391,7 @@
           </div>
         </div>
         <!-- save image -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
             <path fill="currentColor"
               d="M7 5v23l1.594-1.188L16 21.25l7.406 5.563L25 28V5H7zm2 2h14v17l-6.406-4.813L16 18.75l-.594.438L9 24V7z" />
@@ -444,21 +444,21 @@
       <div class="items-center flex justify-between px-5">
         <div class="flex items-center space-x-4">
           <!-- heart -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
               <path fill="currentColor"
                 d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
             </svg>
           </div>
           <!-- message -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
             </svg>
           </div>
           <!-- send -->
-          <div>
+          <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1L21 3" />
@@ -466,7 +466,7 @@
           </div>
         </div>
         <!-- save image -->
-        <div>
+        <div class="transform transition-all hover:scale-110">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
             <path fill="currentColor"
               d="M7 5v23l1.594-1.188L16 21.25l7.406 5.563L25 28V5H7zm2 2h14v17l-6.406-4.813L16 18.75l-.594.438L9 24V7z" />
@@ -491,19 +491,19 @@
   <hr class="border border-gray-600 relative" />
   <!-- footer section -->
   <section class="text-white sticky bottom-0 bg-zinc-900 flex pl-16 justify-between py-3 pr-10">
-    <div>
+    <div class="transform transition-all hover:scale-110">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
         <path fill="currentColor"
           d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" />
       </svg>
     </div>
-    <div>
+    <div class="transform transition-all hover:scale-110">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
         <path fill="currentColor"
           d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z" />
       </svg>
     </div>
-    <div>
+    <div class="transform transition-all hover:scale-110">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
         <path fill="currentColor"
           d="M9 7v8l7-4zm12-4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" />
@@ -521,7 +521,7 @@
           d="M5.075 12H8q.275 0 .525.138t.375.412l1.1 2.2l3.1-6.2q.275-.575.9-.575t.9.575L16.625 12h2.3Q18.55 9.45 16.6 7.725T12 6Q9.35 6 7.4 7.725T5.075 12ZM12 20q2.65 0 4.6-1.725T18.925 14H16q-.275 0-.525-.138t-.375-.412l-1.1-2.2l-3.1 6.2q-.275.575-.9.575t-.9-.575L7.375 14h-2.3q.375 2.55 2.325 4.275T12 20Zm0 2q-1.85 0-3.488-.713T5.65 19.35q-1.225-1.225-1.938-2.863T3 13h2q0 2.9 2.05 4.95T12 20q2.9 0 4.95-2.05T19 13h2q0 1.85-.713 3.488T18.35 19.35q-1.225 1.225-2.863 1.938T12 22Zm-9-9q0-1.85.713-3.488T5.65 6.65q1.225-1.225 2.863-1.938T12 4q1.55 0 2.975.5t2.675 1.45l1.4-1.4l1.4 1.4l-1.4 1.4Q20 8.6 20.5 10.025T21 13h-2q0-2.9-2.05-4.95T12 6Q9.1 6 7.05 8.05T5 13H3ZM9 3V1h6v2H9Zm3 17q-2.9 0-4.95-2.05T5 13q0-2.9 2.05-4.95T12 6q2.9 0 4.95 2.05T19 13q0 2.9-2.05 4.95T12 20Zm0-7Z" />
       </svg>
     </div> -->
-    <div>
+    <div class="transform transition-all hover:scale-110">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
         <path fill="currentColor"
           d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm6 8H6q-.825 0-1.413-.588T4 18v-.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.588 1.413T18 20ZM6 18h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6-8q.825 0 1.413-.588T14 8q0-.825-.588-1.413T12 6q-.825 0-1.413.588T10 8q0 .825.588 1.413T12 10Zm0-2Zm0 10Z" />
