@@ -5,6 +5,7 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
+                index: resolve(__dirname, 'index.html'),
                 white: resolve(__dirname, 'white.html')
             }
         }
