@@ -13,7 +13,7 @@
     <!-- main.css -->
     
     <!-- <link rel="stylesheet" href="./dist/assets/index-e0a4c796.css"> -->
-  <link rel="stylesheet" href="/instagram-ui/assets/main-6126809b.css">
+  <link rel="stylesheet" href="/instagram-ui/assets/main-0a89f603.css">
 </head>
 
 <body class="max-w-md mx-auto relative"
@@ -51,6 +51,7 @@
             </div>
             <!-- heart icon -->
             <div class="relative transform transition-all hover:scale-110">
+                <div class="bg-red-600 w-2 h-2 rounded-full absolute top-1 right-4 left-4"></div>
                 <div class=" w-2 h-2 rounded-full absolute top-1 right-5 left-5"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
                     <path fill="currentColor"
@@ -59,7 +60,7 @@
             </div>
             <!-- github icon -->
             <div class="transform transition-all hover:scale-110">
-                <a href="https://github.com/Hema-venkat3/instagram-ui-tailwind" target="_blank"><img
+                <a href="https://github.com/Hema-venkat3/instagram-ui" target="_blank"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoElEQVR4nO2Wz0sqURTHRwMThRYJ4Y+MStu0cG2GJAYuAmWUct2mRdqPxWxd+V+kqImtBEGJqIXQX9DG1biqRTtBcSr7YXUeZ6DoNveOzvQeDx7vwMFx7j3fj/fce+6R4zgO/pJz/8FAy8Lc3Bzs7+/DxcUFiKII9/f3suMzvtvb2wO32/37Uu1yueDo6AheX19hlL29vUG1WoX5+fmfgXmeh7u7O9BqkiRBLBbTBz48PJRXoNcw9uDgQBuY5/kfQb/CVVbOES9mZ2cV6fX7/eDz+aBQKKiCcBznBQIBIu1Op3M0mCY+OTlJZGNtbQ1mZmZgYmJC/gyFQvL7jzlms5mIz+fz6mAsGdrp9Xq9mi6ZpaUlIh41MZNMMNYpzVZXVzWBg8GgQiOdTrPB5+fnioBarabrSm00GoTO2dkZG9xutxXglZUVXeDvqxZFkQ3GE6h2sLS41WoldCRJYoPx7v1uU1NTusA2m43QeXh4YIOvr68V4Gg0qgucSCQInZubGzYYD8B3u7q6kutSC9RisUCr1SJ0Tk9P2WBBEIBmzWaTdfsoHOv18vJSoSEIAhuM/fTl5YUKHwwGUCwWYWtrCxYXFwkR/J5MJuH4+BgeHx8VsajpcDjYYPRKpfIZsL29DfV6XfEDIpEIERMOh+Hp6QlYVi6XadlRNv5utysHdDodmJ6ehpOTE1m41+tBJpOhpjibzVKh/X6ftlqgtsXNzc3PtrizszPW3no8HgUUNeLxOCuGow6kUil4f3+H29tbWF9fH3myjUajArq7u6sWwzEHsYljer+a2vwPw61SWSmMBKNjGeVyORgOhyPBz8/PUCqVwG63j7M93Fh7iGLYNk0mE3XcYDCMXeucFvAfcO7fBi8sLMDGxgYsLy/L/9F+ASyWdkXJdoyNAAAAAElFTkSuQmCC" width="50" height="50" class="rounded-full"
                         alt="Github"></a>
             </div>
@@ -72,7 +73,7 @@
     <section class="px-5 py-5 flex space-x-4 items-center justify-center bg-white">
         <div class="flex flex-col justify-center transform transition-all hover:scale-105">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                class="text-black w-16 h-16">
+                class="text-gray-700 w-16 h-16">
                 <path fill="none"
                     d="M8.007 24.93A4.996 4.996 0 0 1 13 20h6a4.996 4.996 0 0 1 4.993 4.93a11.94 11.94 0 0 1-15.986 0ZM20.5 12.5A4.5 4.5 0 1 1 16 8a4.5 4.5 0 0 1 4.5 4.5Z" />
                 <path fill="currentColor"
@@ -125,7 +126,7 @@
                 <div class="flex space-x-4 items-center">
                     <!-- profile icon for post -->
                     <img src="/instagram-ui/assets/p-1-189333ca.jpg" alt="businessmindset101"
-                        class="w-11 h-11 object-cover justify-center items-center p-0.5 rounded-full">
+                        class="w-11 h-11 object-cover justify-center items-center p-0.5 rounded-full transform transition-all hover:scale-110">
 
                     <p>photography <span class="text-gray-600 text-sm">. 16 h</span></p>
                 </div>
@@ -143,16 +144,18 @@
             </div>
             <div>
                 <!-- post -->
-                <img src="/instagram-ui/assets/p-2debefb5.jpg" alt="business" class="p-5 rounded" width="450" height="450">
+                <img src="/instagram-ui/assets/p-2debefb5.jpg" alt="business"
+                    class="p-5 rounded transform transition-all hover:scale-105" width="450" height="450">
             </div>
             <!--  Likes commands send save-->
             <div class="items-center flex m-1 justify-between px-5">
                 <div class="flex items-center space-x-4">
                     <!-- heart -->
                     <div class="transform transition-all hover:scale-110">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                            class="text-red-800">
+                            <path fill="#ff0000"
+                                d="M12 20.325q-.35 0-.713-.125t-.637-.4l-1.725-1.575q-2.65-2.425-4.788-4.813T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.325 0 2.5.562t2 1.538q.825-.975 2-1.538t2.5-.562q2.35 0 3.925 1.575T22 8.15q0 2.875-2.125 5.275T15.05 18.25l-1.7 1.55q-.275.275-.637.4t-.713.125Z" />
                         </svg>
                     </div>
                     <!-- message -->
@@ -197,7 +200,7 @@
             <div class="flex items-center space-x-4">
                 <!-- profile icon for post -->
                 <img src="https://qph.cf2.quoracdn.net/main-thumb-538176581-200-vjrgjjszeetbfsvondexgtnvlfxhzzvp.jpeg"
-                    alt="Niga Designers" class="w-11 h-11 p-0.5 rounded-full">
+                    alt="Niga Designers" class="w-11 h-11 p-0.5 rounded-full transform transition-all hover:scale-110">
                 <p>Niga Designers <span class="text-gray-600 text-sm">. 55 m</span></p>
                 <!-- <samll>sudharshan93 . Radhai Manadhil - Sudharshan</samll> -->
             </div>
@@ -216,7 +219,7 @@
         <div>
             <!-- post -->
             <img src="https://i.pinimg.com/550x/79/3d/18/793d18ddc408c383f1d76edde4029c6b.jpg" width="450" height="450"
-                alt="blouse design" class="p-5">
+                alt="blouse design" class="p-5 transform transition-all hover:scale-105">
         </div>
         <!--  Likes commands send save-->
         <div class="items-center flex justify-between px-5">
@@ -272,7 +275,7 @@
                 <div class="flex space-x-4">
                     <!-- profile icon for post -->
                     <img src="https://chennaivision.com/tamil-movies/wp-content/uploads/2018/07/2-7-600x550.jpg"
-                        alt="Vanibhojan" class="w-11 h-11 p-0.5 rounded-full">
+                        alt="Vanibhojan" class="w-11 h-11 p-0.5 rounded-full transform transition-all hover:scale-110">
                     <p class="flex items-center">Vanibhojan
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             class="text-blue-600 p-1">
@@ -297,16 +300,17 @@
             <div>
                 <!-- post -->
                 <img src="https://jackiecinemas.com/wp-content/uploads/2020/09/Stills-4.jpeg" width="450" height="450"
-                    alt="Vani bhojan" class="p-5">
+                    alt="Vani bhojan" class="p-5 transform transition-all hover:scale-105">
             </div>
             <!--  Likes commands send save-->
             <div class="items-center flex  justify-between px-5">
                 <div class="flex items-center space-x-4">
                     <!-- heart -->
                     <div class="transform transition-all hover:scale-110">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
-                            <path fill="currentColor"
-                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                            class="text-red-800">
+                            <path fill="#ff0000"
+                                d="M12 20.325q-.35 0-.713-.125t-.637-.4l-1.725-1.575q-2.65-2.425-4.788-4.813T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.325 0 2.5.562t2 1.538q.825-.975 2-1.538t2.5-.562q2.35 0 3.925 1.575T22 8.15q0 2.875-2.125 5.275T15.05 18.25l-1.7 1.55q-.275.275-.637.4t-.713.125Z" />
                         </svg>
                     </div>
                     <!-- message -->
@@ -346,8 +350,8 @@
             <div class="flex justify-between items-center px-5">
                 <div class="flex items-center space-x-4 ">
                     <!-- profile icon for post -->
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1t1lJEhvj2F018M4g7chVwdP5LmPoG-VQjli96abI2KpU1jLlpqTFRpg_BEqHrHCMVs&usqp=CAU"
-                        alt="Andrea" class="w-11 h-11 p-0.5 rounded-full">
+                    <img src="/instagram-ui/assets/a-0c053ddb.jpg" alt="Andrea"
+                        class="w-11 h-11 p-0.5 rounded-full transform transition-all hover:scale-110">
                     <p class="flex items-center">therealandrea
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             class="text-blue-600 p-1">
@@ -371,8 +375,8 @@
             </div>
             <div>
                 <!-- post -->
-                <img src="https://cdn.mygodimages.com/mygodimg/preview/andrea-jeremiah-instagram-hd-wallpapers-images-photos-free-11650433864fnjak28vva.webp"
-                    width="450" height="450" alt="Andrea" class="p-5">
+                <img src="/instagram-ui/assets/a-0c053ddb.jpg" width="450" height="450" alt="Andrea"
+                    class="p-5 transform transition-all hover:scale-105">
             </div>
             <!--  Likes commands send save-->
             <div class="items-center flex justify-between px-5">
@@ -426,7 +430,7 @@
                 <div class="flex space-x-4 items-center">
                     <!-- profile icon for post -->
                     <img src="data:image/jpeg;base64,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"
-                        alt="Andrea" class="w-11 h-11 p-0.5 rounded-full">
+                        alt="Andrea" class="w-11 h-11 p-0.5 rounded-full transform transition-all hover:scale-110">
                     <p class="flex items-center">shrads and kikishrads
                         <span class="text-gray-600 text-sm pl-1"> . 40 m</span>
                     </p>
@@ -447,16 +451,17 @@
             <div>
                 <!-- post -->
                 <img src="https://www.mumbaikarsperspective.com/static/c1e/client/86164/uploaded/f1d499dbe4a99a06a48c5283b0d29842.jpg"
-                    width="450" height="450" alt="Andrea" class="p-5">
+                    width="450" height="450" alt="Andrea" class="p-5 transform transition-all hover:scale-105">
             </div>
             <!--  Likes commands send save-->
             <div class="flex items-center justify-between px-5">
                 <div class="flex items-center space-x-4">
                     <!-- heart -->
                     <div class="transform transition-all hover:scale-110">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="">
-                            <path fill="currentColor"
-                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
+                            class="text-red-800">
+                            <path fill="#ff0000"
+                                d="M12 20.325q-.35 0-.713-.125t-.637-.4l-1.725-1.575q-2.65-2.425-4.788-4.813T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.325 0 2.5.562t2 1.538q.825-.975 2-1.538t2.5-.562q2.35 0 3.925 1.575T22 8.15q0 2.875-2.125 5.275T15.05 18.25l-1.7 1.55q-.275.275-.637.4t-.713.125Z" />
                         </svg>
                     </div>
                     <!-- message -->
@@ -506,19 +511,19 @@
                     d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" />
             </svg>
         </div>
-        <div>
+        <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="currentColor"
                     d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z" />
             </svg>
         </div>
-        <div>
+        <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="currentColor"
                     d="M9 7v8l7-4zm12-4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" />
             </svg>
         </div>
-        <div>
+        <!-- <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="currentColor"
                     d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-1l-1.1-2.4L8.5 13l2.4-1.1L12 9.5l1.1 2.4l2.4 1.1l-2.4 1.1l-1.1 2.4ZM2 21V5h5.15L9 3h6l1.85 2H22v16H2Zm2-2h16V7H4v12Zm8-6Z" />
@@ -529,8 +534,8 @@
                 <path fill="currentColor"
                     d="M5.075 12H8q.275 0 .525.138t.375.412l1.1 2.2l3.1-6.2q.275-.575.9-.575t.9.575L16.625 12h2.3Q18.55 9.45 16.6 7.725T12 6Q9.35 6 7.4 7.725T5.075 12ZM12 20q2.65 0 4.6-1.725T18.925 14H16q-.275 0-.525-.138t-.375-.412l-1.1-2.2l-3.1 6.2q-.275.575-.9.575t-.9-.575L7.375 14h-2.3q.375 2.55 2.325 4.275T12 20Zm0 2q-1.85 0-3.488-.713T5.65 19.35q-1.225-1.225-1.938-2.863T3 13h2q0 2.9 2.05 4.95T12 20q2.9 0 4.95-2.05T19 13h2q0 1.85-.713 3.488T18.35 19.35q-1.225 1.225-2.863 1.938T12 22Zm-9-9q0-1.85.713-3.488T5.65 6.65q1.225-1.225 2.863-1.938T12 4q1.55 0 2.975.5t2.675 1.45l1.4-1.4l1.4 1.4l-1.4 1.4Q20 8.6 20.5 10.025T21 13h-2q0-2.9-2.05-4.95T12 6Q9.1 6 7.05 8.05T5 13H3ZM9 3V1h6v2H9Zm3 17q-2.9 0-4.95-2.05T5 13q0-2.9 2.05-4.95T12 6q2.9 0 4.95 2.05T19 13q0 2.9-2.05 4.95T12 20Zm0-7Z" />
             </svg>
-        </div>
-        <div>
+        </div> -->
+        <div class="transform transition-all hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="currentColor"
                     d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm6 8H6q-.825 0-1.413-.588T4 18v-.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.588 1.413T18 20ZM6 18h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6-8q.825 0 1.413-.588T14 8q0-.825-.588-1.413T12 6q-.825 0-1.413.588T10 8q0 .825.588 1.413T12 10Zm0-2Zm0 10Z" />
